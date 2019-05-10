@@ -1,3 +1,4 @@
 UPDATE studenten
-SET geboortedatum = "1964-09-31"
-WHERE ov_nummer = 90001;
+SET actief = false
+WHERE inschrijvings_datum <= "1-1-2017";
+hij staat in safe mode, kan niet editen
